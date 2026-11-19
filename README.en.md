@@ -24,7 +24,11 @@ Saving with all models unchecked asks you to confirm restoring the built-in mode
 
 ## Compatibility
 
-Verified with Xiaomi MiMo, OpenAI, and OpenCode Zen on **DSH Desktop 0.2.2-rc.3**. Feedback from other providers is welcome.
+Verified with Xiaomi MiMo, OpenAI, and OpenCode Zen. Feedback from other providers is welcome.
+
+| Plugin version | DSH Desktop version    |
+| -------------- | ---------------------- |
+| 0.1.0          | 0.2.2-rc.3, 0.2.2-rc.5 |
 
 Which parameters this plugin can update depends entirely on what the provider returns. For example, MiMo's model endpoint returns model IDs but no context windows or output limits, so users need to enter those values manually.
 

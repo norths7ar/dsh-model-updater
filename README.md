@@ -24,7 +24,11 @@ https://github.com/norths7ar/dsh-model-updater
 
 ## 支持范围
 
-目前已验证小米 MiMo、OpenAI 和 OpenCode Zen，验证环境为 **DSH Desktop 0.2.2-rc.3**。其他提供商欢迎试用并反馈问题。
+目前已验证小米 MiMo、OpenAI 和 OpenCode Zen。其他提供商欢迎试用并反馈问题。
+
+| 插件版本 | DSH Desktop 版本       |
+| -------- | ---------------------- |
+| 0.1.0    | 0.2.2-rc.3、0.2.2-rc.5 |
 
 本插件能更新哪些参数完全取决于提供商返回的信息。例如 MiMo 的模型接口只返回型号，不提供上下文窗口和最大输出，此时就需要用户手动填写。
 
